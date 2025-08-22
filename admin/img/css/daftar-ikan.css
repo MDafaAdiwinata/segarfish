@@ -1,0 +1,15 @@
+ /* Montserrat Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.card-ikan {
+  transition: all 0.3s ease;
+}
+
+.card-ikan:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;

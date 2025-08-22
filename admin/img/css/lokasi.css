@@ -1,0 +1,40 @@
+ /* Montserrat Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/* Lokasi Section Start */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40%;
+  height: 0;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    padding-bottom: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-container {
+    padding-bottom: 100%;
+  }
+}
+
+/* Lokasi Section End */

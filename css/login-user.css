@@ -1,0 +1,42 @@
+ /* Montserrat Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.form-container .form-head {
+  width: 21%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 2rem 2rem;
+}
+
+.btn-masuk {
+  background-color: var(--bs-purple);
+}
+
+.btn-kembali {
+  background-color: var(--bs-primary);
+}
+
+/* Media Queries For Laptop */
+@media (max-width: 1400px) {
+  .form-container .form-head {
+    width: 40%;
+  }
+}
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .form-container .form-head {
+    width: 60%;
+  }
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .form-container .form-head {
+    width: 90%;
+  }
+}
